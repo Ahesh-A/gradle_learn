@@ -14,3 +14,5 @@ plugins {
 rootProject.name = "gradle_learn"
 include("app")
 include("lib")
+
+includeBuild("gradle/license-plugin")
